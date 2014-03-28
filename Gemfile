@@ -4,7 +4,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 
 # Use SCSS for stylesheets
 #gem 'sass-rails', '~> 4.0.2'
@@ -50,3 +49,17 @@ gem 'quiet_assets'
 gem 'twitter-bootstrap-rails'
 gem 'therubyracer'
 gem 'less-rails'
+
+group :development do
+  gem 'sqlite3', '1.3.8'
+  gem 'quiet_assets'
+end
+
+group :development, :test do
+  gem 'rspec-rails'
+end
+
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+end
