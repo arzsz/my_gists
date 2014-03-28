@@ -1,29 +1,38 @@
-== README
----------------
+My_Gists
+--------
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Wykorzystane gemy:
 
-Things you may want to cover:
+* gem 'rails', '4.0.4'
 
-* Ruby version
+* gem 'sqlite3'
 
-* System dependencies
+* gem 'uglifier', '>= 1.3.0'
 
-* Configuration
+* gem 'coffee-rails', '~> 4.0.0'
 
-* Database creation
+* gem 'jquery-rails'
 
-* Database initialization
+* gem 'turbolinks'
 
-* How to run the test suite
+* gem 'jbuilder', '~> 1.2'
 
-* Services (job queues, cache servers, search engines, etc.)
+* gem 'pygments.rb'
 
-* Deployment instructions
+* gem 'redcarpet'
 
-* ...
+* gem 'quiet_assets'
+
+* gem 'twitter-bootstrap-rails'
+
+* gem 'therubyracer'
+
+* gem 'less-rails'
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+TO DO
+-----
+
+* zmiana widoków
+* zmiana rozmiaru czcionki
+* zmiana rozmiaru text_area
