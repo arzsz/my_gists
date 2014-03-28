@@ -2,7 +2,7 @@ My_Gists
 --------
 
 Aplikacja dostępna jest na Heroku pod adresem
-http://fast-beach-4233.herokuapp.com/gists
+http://fast-beach-4233.herokuapp.com/
 --------------------------------------
 
 
