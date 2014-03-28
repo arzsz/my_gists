@@ -1,6 +1,11 @@
 My_Gists
 --------
 
+Aplikacja dostępna jest na Heroku pod adresem
+http://young-inlet-7067.herokuapp.com/
+--------------------------------------
+
+
 Wykorzystane gemy:
 
 * gem 'rails', '4.0.4'
@@ -36,3 +41,12 @@ TO DO
 * zmiana widoków
 * zmiana rozmiaru czcionki
 * zmiana rozmiaru text_area
+
+
+Do dodania
+----------
+Widok responsywny po ctrl+shift+m
+Wyszukiwanie
+co zmieniono w widokach
+tylko używane gemy w readme
+dodać dużo rekordów
