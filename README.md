@@ -45,8 +45,8 @@ TO DO
 
 Do dodania
 ----------
-Widok responsywny po ctrl+shift+m
-Wyszukiwanie
-co zmieniono w widokach
-tylko używane gemy w readme
-dodać dużo rekordów
+* Widok responsywny po ctrl+shift+m
+* Wyszukiwanie
+* co zmieniono w widokach
+* tylko używane gemy w readme
+* dodać dużo rekordów
