@@ -5,7 +5,10 @@
 
 <dl class="dl-horizontal">
   <dt><strong><%= model_class.human_attribute_name(:snippet) %>:</strong></dt>
-  <dd><%= @gist.snippet %></dd>
+  
+  <!-- <dd><%= @gist.snippet %></dd> -->
+  <dd><%= raw Pygments.highlight(@gist.snippet, lexer: @gist.lang.downcase) %></dd>
+  
   <dt><strong><%= model_class.human_attribute_name(:lang) %>:</strong></dt>
   <dd><%= @gist.lang %></dd>
   <dt><strong><%= model_class.human_attribute_name(:description) %>:</strong></dt>
@@ -14,7 +17,7 @@
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
-              gists_path, :class => 'btn'  %>
+              gists_path, :class => 'btn' %>
   <%= link_to t('.edit', :default => t("helpers.links.edit")),
               edit_gist_path(@gist), :class => 'btn' %>
   <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
