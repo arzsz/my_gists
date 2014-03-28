@@ -45,7 +45,6 @@ end
 
 gem 'pygments.rb'
 gem 'redcarpet'
-gem 'quiet_assets'
 gem 'twitter-bootstrap-rails'
 gem 'therubyracer'
 gem 'less-rails'
