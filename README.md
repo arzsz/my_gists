@@ -2,7 +2,7 @@ My_Gists
 --------
 
 Aplikacja dostępna jest na Heroku pod adresem
-http://young-inlet-7067.herokuapp.com/
+http://fast-beach-4233.herokuapp.com/gists
 --------------------------------------
 
 
