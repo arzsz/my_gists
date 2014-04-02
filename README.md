@@ -8,14 +8,14 @@ http://fast-beach-4233.herokuapp.com/
 
 Wykorzystane gemy:
 
-gem 'pygments.rb'
-gem 'redcarpet'
-gem 'twitter-bootstrap-rails'
-gem 'therubyracer'
-gem 'less-rails'
-gem 'bootstrap-sass'
-gem 'sass-rails'
-gem 'less-rails'
+* gem 'pygments.rb'
+* gem 'redcarpet'
+* gem 'twitter-bootstrap-rails'
+* gem 'therubyracer'
+* gem 'less-rails'
+* gem 'bootstrap-sass'
+* gem 'sass-rails'
+* gem 'less-rails'
 
 
 TO DO
