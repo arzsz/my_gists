@@ -2,13 +2,20 @@ My_Gists
 --------
 
 Aplikacja dostępna jest na Heroku pod adresem
+
 http://fast-beach-4233.herokuapp.com/
---------------------------------------
 
 
 Wykorzystane gemy:
 
-* bootstrap
+gem 'pygments.rb'
+gem 'redcarpet'
+gem 'twitter-bootstrap-rails'
+gem 'therubyracer'
+gem 'less-rails'
+gem 'bootstrap-sass'
+gem 'sass-rails'
+gem 'less-rails'
 
 
 TO DO
