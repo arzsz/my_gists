@@ -4,24 +4,22 @@
 </div>
 <table class="table table-striped">
   <thead>
+
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
-      <th><%= model_class.human_attribute_name(:snippet) %></th>
+      <th class="doHide bg-primary"><%= model_class.human_attribute_name(:snippet) %></th>
       <th><%= model_class.human_attribute_name(:lang) %></th>
       <th><%= model_class.human_attribute_name(:description) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
   <tbody>
     <% @gists.each do |gist| %>
       <tr>
-        <td><%= link_to gist.id, gist_path(gist) %></td>
-        <td><%= gist.snippet %></td>
-        <td><%= gist.lang %></td>
-        <td><%= gist.description %></td>
-        <td><%=l gist.created_at %></td>
+        <td class="doHide bg-primary"><%= gist.snippet[0, 25] %></td>
+        <td><%= gist.lang[0, 10] %></td>
+        <td><%= gist.description[0, 15] %></td>
         <td>
+	  <%= link_to t('.show', :default => t("helpers.links.show")), gist,class:'btn btn-success btn-block', :class => 'btn btn-mini' %>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_gist_path(gist), :class => 'btn btn-mini' %>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
