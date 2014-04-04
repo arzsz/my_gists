@@ -16,7 +16,7 @@ Wykorzystane gemy:
 * gem 'bootstrap-sass'
 * gem 'sass-rails'
 * gem 'less-rails'
-
+* gem 'kaminari'
 
 TO DO
 -----
@@ -25,11 +25,10 @@ TO DO
 * zmiana rozmiaru czcionki
 * zmiana rozmiaru text_area
 * zastosowanie widoku responsywnego
-
+* paginacja
+* uzupełniony plik seed.rb
 
 Do dodania
 ----------
 * Wyszukiwanie
-* co zmieniono w widokach
-* tylko używane gemy w readme
-* dodać dużo rekordów
+* infinite scrolling
