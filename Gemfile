@@ -50,6 +50,7 @@ gem 'therubyracer'
 gem 'less-rails'
 gem 'bootstrap-sass'
 gem 'sass-rails'
+gem 'kaminari'
 
 group :development do
   gem 'sqlite3', '1.3.8'
