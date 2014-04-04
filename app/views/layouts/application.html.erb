@@ -42,11 +42,25 @@
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            
           </a>
           <a class="brand" href="#">All Gists</a>
+
+          <form class="navbar-form navbar-left pull-right" role="search" action="/gists/search">
+            <div class="form-group">
+              <%
+                 @gists = Gist.all
+                 @allowed = Array.new
+                 @gists.each do |gist|
+                 @allowed << gist.lang
+              end
+                 @allowed = @allowed.uniq
+              %>
+              <%= select_tag(:lang, options_for_select(@allowed))%>
+
+              <button type="submit" class="btn btn-default">Search</button>
+            </div>
+          </form>
           <div class="container nav-collapse">
             <ul class="nav">
               <li><%= link_to "Home", "/gists"  %></li>
