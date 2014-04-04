@@ -1,9 +1,9 @@
 <%- model_class = Gist -%>
 <div class="page-header">
-<%= paginate @gists %>
+
   <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
 </div>
-<table class="table table-striped">
+<table class="table table-striped" id="gist">
   <thead>
 
     <tr>
@@ -14,10 +14,17 @@
     </tr>
   </thead>
   <tbody>
+  <div id="my-gists">
     <%= render @gists %>
+  </div>
+
   </tbody>
 </table>
 
 <%= link_to t('.new', :default => t("helpers.links.new")),
             new_gist_path,
             :class => 'btn btn-primary' %>
+
+<div id="infinite-scrolling">
+<%= will_paginate %>
+</div>

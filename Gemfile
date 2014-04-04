@@ -52,6 +52,9 @@ gem 'bootstrap-sass'
 gem 'sass-rails'
 gem 'kaminari'
 
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 group :development do
   gem 'sqlite3', '1.3.8'
   gem 'quiet_assets'
