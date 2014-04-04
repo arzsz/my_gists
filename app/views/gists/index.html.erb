@@ -1,5 +1,6 @@
 <%- model_class = Gist -%>
 <div class="page-header">
+<%= paginate @gists %>
   <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
 </div>
 <table class="table table-striped">
@@ -20,4 +21,3 @@
 <%= link_to t('.new', :default => t("helpers.links.new")),
             new_gist_path,
             :class => 'btn btn-primary' %>
-<%= paginate @gists %>
