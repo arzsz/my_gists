@@ -16,7 +16,8 @@ Wykorzystane gemy:
 * gem 'bootstrap-sass'
 * gem 'sass-rails'
 * gem 'less-rails'
-* gem 'kaminari'
+* gem 'will_paginate'
+* gem 'bootstrap-will_paginate'
 
 TO DO
 -----
@@ -27,8 +28,8 @@ TO DO
 * zastosowanie widoku responsywnego
 * paginacja
 * uzupełniony plik seed.rb
+* infinite scrolling (nie do końca działa poprawnie)
 
 Do dodania
 ----------
 * Wyszukiwanie
-* infinite scrolling
