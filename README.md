@@ -1,5 +1,6 @@
 My_Gists
 --------
+Pierwsza aplikacja na zaliczenie zajęć Architektura serwisów internetowych - Ruby on Rails
 
 Aplikacja dostępna jest na Heroku pod adresem
 
@@ -22,14 +23,13 @@ Wykorzystane gemy:
 TO DO
 -----
 
-* zmiana widoków
+* zmiana widoków przy użyciu bootstrap
 * zmiana rozmiaru czcionki
 * zmiana rozmiaru text_area
 * zastosowanie widoku responsywnego
 * paginacja
 * uzupełniony plik seed.rb
 * infinite scrolling (nie do końca działa poprawnie)
+* wyszukiwanie po nazwie języka programowania
 
-Do dodania
-----------
-* Wyszukiwanie
+Niestety niektóre niedociągnięcia spowodowane były awarią mojego komputera i przez kilka dni nie działających railsów z niewiadomej mi przyczyny 
